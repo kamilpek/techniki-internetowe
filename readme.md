@@ -2,6 +2,7 @@
 ## ZURB Template
 
 Autor: Kamil Pek - 231050
+Adres: [Firebase](https://161050ti.firebaseapp.com/)
 
 ## Instalacja
 

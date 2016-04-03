@@ -24,6 +24,7 @@ Zastasuj tą komendę, aby zainicjować nowy projekt.
 
 ```bash
 foundation new --framework sites --template zurb
+```
 
 ### Uruchamianie 
 
