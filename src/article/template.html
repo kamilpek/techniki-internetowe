@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Pendrive'a.</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="{{root}}assets/css/custom.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+
+    <!-- Style guide-specific CSS goes here. -->
+    <style>
+    /* This styles individual sections of the style guide */
+    .ss-section:not(:last-child) {
+      padding-bottom: 4rem;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 4rem;
+    }
+
+    /* This styles code blocks used for examples. */
+    .ss-code code {
+      display: block;
+      padding: 1rem;
+      overflow-x: scroll;
+      margin-bottom: 1.5rem;
+    }
+
+    /* This styles the example rows used in the grid documentation. */
+    .row.display {
+      background: #eee;
+      font-size: 11px;
+      margin-bottom: 10px;
+      line-height: 2rem;
+      border: solid 1px #c6c6c6;
+      margin-left: 0 !important;
+      margin-right: 0 !important; }
+      .row.display .columns:nth-child(2), .row.display .columns.small-centered, .row.display .columns.large-centered {
+        background: #e1e1e1; }
+      .row.display .columns.color-end {
+        background: #d4d4d4; }
+
+    /* This styles the color blocks used in the color documentation. */
+    .color-block {
+      border-radius: 2px;
+      display: block;
+      padding: 8px 8px 6px;
+      color: #333;
+      text-transform: uppercase;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+      .color-block span {
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0.42857rem;
+      }
+    </style>
+  </head>
+  <body>
+<p> </p>
+    <div class="column row">
+      <div class="callout">
+      <h1>HyperX Savage 256 GB</h1>
+      <p class="lead">HyperX Savage 256 GB – krótki test szybkiego pendrive'a.</p>
+    </div> </div>
+
+    <div class="column row"><div class="row collapse">
+
+      <div class="callout">
+        <ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+        <center><ul class="horizontal menu">
+          {{#each pages}}
+            <li><a href="#{{ anchor }}"><p class="lead">{{ title }}</p></a></li>
+          {{/each}}
+        </ul> </center> </ul>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns" align="justify">
+            {{#each pages}}
+            <div class="callout">
+            {{ body }}
+          </div>
+        {{/each}}
+    </div>
+  </div>
+  <div class="callout">
+  <span class="lewa">Źródło: <a href="http://www.benchmark.pl/testy_i_recenzje/hyperx-savage-256gb-usb-3-1-test-pendrive.html">Benchmark.pl</a></span>
+  <span class="prawa"><a href="/">Powrót do strony głównej</a></span>
+  <br>
+</div>
+</div>
+</div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

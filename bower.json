@@ -1,0 +1,27 @@
+{
+  "name": "foundation-ssg",
+  "version": "1.0.0",
+  "authors": [
+    "ZURB <foundation@zurb.com>"
+  ],
+  "description": "Static site generator for Foundation for Sites.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.2.0",
+    "motion-ui": "~1.2.2",
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-header-panel": "PolymerElements/paper-header-panel#^1.1.5",
+    "paper-card": "PolymerElements/paper-card#^1.1.1",
+    "google-map": "GoogleWebComponents/google-map#^1.1.10",
+    "paper-button": "PolymerElements/paper-button#^1.0.11"
+  },
+  "private": true
+}
