@@ -10,5 +10,6 @@
 - mapa Google Maps,
 - autoamtyzacja generowania stron via "Markdown in Panini",
 - bloki tekstu z ramkami w konwencji Material Design,
+- wzory matetmatyczne w technologii MathJax,
 
 
