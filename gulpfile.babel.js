@@ -72,7 +72,7 @@ function styleGuide(done) {
   }, done);
 }
 
-// Generate a style guide from the Markdown content and HTML template in article/
+// Artykuł markdown in panini
 function article(done) {
   sherpa('src/article/index.md', {
     output: PATHS.dist + '/article.html',
